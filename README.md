@@ -18,12 +18,16 @@ Currently AI & Automation Architect at [Web My Money](https://webmymoney.com), a
 
 ### Selected work
 
-**A member challenge platform for a 170,000-contact subscription business**
+**[A member challenge platform for a 170,000-contact subscription business](https://github.com/milansolutionsai-ops/redso-summer-challenge-case-study)**
 Sole designer, engineer and operator. Public bilingual site, membership-gated signup validating against live CRM state, member portal with weekly challenges and evidence uploads and a live leaderboard, an admin console, and the full email journey. **870 participants, 96% profile completion, 3,600+ submissions in the first three weeks, and roughly 80% active-participant retention** from week one to week three.
 `Next.js` `React` `TypeScript` `Supabase` `GoHighLevel` `Vercel`
 
-**An attribution-recovery layer for custom-built funnels**
+**[Keeping GoHighLevel's native attribution on custom-built pages](https://github.com/milansolutionsai-ops/ghl-native-attribution)**
 GoHighLevel only attaches native attribution to contacts its own tracking script creates. Build a custom landing page instead of using their builder and every lead loses its first-touch data, permanently, with nothing to tell you it happened. The fix inverts the problem: deliberately lose the create race, let the platform's tracker win, then enrich the record it made. Degrades to an API create on timeout so a lead is never lost, and writes a log line per lead because the failure mode is otherwise invisible.
+
+**[An internal content platform that removed the developer from every copy change](https://github.com/milansolutionsai-ops/wmm-studio-case-study)**
+Every headline and price on the agency's marketing sites used to be a pull request. Built a slot-based platform where editors fill named slots and cannot restructure a page, with preview-first editing into the real components. The public content API deliberately holds no credentials, because content about to be published is not a secret, and the one genuinely privileged operation (cache invalidation) verifies an Ed25519 signature instead of a shared token. Live; the whole team uses it.
+`Next.js` `TypeScript` `Supabase` `Vercel`
 
 **A 23-agent autonomous system, running for four months on under $50**
 My own operating system: content generation and scheduling, comment drafting with human approval, publishing, intelligence gathering, meeting prep. Scheduled on Postgres cron, executed on serverless, with per-agent token cost written to the database next to latency and status, and a kill switch on every agent so any one can leave production without a deploy. **477 commits, 900+ tests.** About half the fleet is switched off at any time, which is the point.
