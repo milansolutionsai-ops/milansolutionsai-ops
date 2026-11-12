@@ -34,6 +34,18 @@ My own operating system: content generation and scheduling, comment drafting wit
 
 ---
 
+### Free tools
+
+Things I built for my own work and cleaned up for anyone to use.
+
+**[map: a Claude Code skill that keeps you able to explain your own system](https://github.com/milansolutionsai-ops/claude-code-map-skill)**
+After every finished piece of work, Claude posts a 5-line map in the chat: the flow, where it lives, what isn't tested, and a decision only when there's a real one. Plus a one-page map per project that survives context compaction, and a live-checked brief before client calls.
+
+**[media-toolkit](https://github.com/milansolutionsai-ops/media-toolkit)**
+A full AI video studio for €0 a month, driven by Claude Code on a laptop CPU.
+
+---
+
 ### Stack
 
 **Build:** TypeScript, Next.js, React, Node, Tailwind
