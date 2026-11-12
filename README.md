@@ -18,14 +18,14 @@ Currently AI & Automation Architect at [Web My Money](https://webmymoney.com), a
 
 ### Selected work
 
-**[A member challenge platform for a 170,000-contact subscription business](https://github.com/milansolutionsai-ops/redso-summer-challenge-case-study)**
+**[A member challenge platform for a large subscription business](https://github.com/milansolutionsai-ops/membership-challenge-platform-case-study)**
 Sole designer, engineer and operator. Public bilingual site, membership-gated signup validating against live CRM state, member portal with weekly challenges and evidence uploads and a live leaderboard, an admin console, and the full email journey. **870 participants, 96% profile completion, 3,600+ submissions in the first three weeks, and roughly 80% active-participant retention** from week one to week three.
 `Next.js` `React` `TypeScript` `Supabase` `GoHighLevel` `Vercel`
 
 **[Keeping GoHighLevel's native attribution on custom-built pages](https://github.com/milansolutionsai-ops/ghl-native-attribution)**
 GoHighLevel only attaches native attribution to contacts its own tracking script creates. Build a custom landing page instead of using their builder and every lead loses its first-touch data, permanently, with nothing to tell you it happened. The fix: put a rule-compliant plain HTML form and the platform's own tracker inside an iframe, so a real user submit is a genuine top-level navigation from the tracker's point of view. The platform creates and attributes the contact; the parent app never reloads and enriches the same record by email. Falls back to an API create when the tracker is blocked, which is 15 to 40% of traffic, so a lead is never lost.
 
-**[An internal content platform that removed the developer from every copy change](https://github.com/milansolutionsai-ops/wmm-studio-case-study)**
+**[An internal content platform that removed the developer from every copy change](https://github.com/milansolutionsai-ops/agency-content-studio-case-study)**
 Every headline and price on the agency's marketing sites used to be a pull request. Built a slot-based platform where editors fill named slots and cannot restructure a page, with preview-first editing into the real components. The public content API deliberately holds no credentials, because content about to be published is not a secret, and the one genuinely privileged operation (cache invalidation) verifies an Ed25519 signature instead of a shared token. Live; the whole team uses it.
 `Next.js` `TypeScript` `Supabase` `Vercel`
 
