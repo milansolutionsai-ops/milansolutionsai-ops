@@ -47,6 +47,18 @@ No SQL write without a matching dry run, no risky click in a client's live syste
 **[scoping-kit: quoting AI-assisted work](https://github.com/milansolutionsai-ops/claude-code-scoping-kit)**
 Three Claude Code skills. Every estimate shows the market quote next to your real AI-assisted hours plus a calendar date, a client feature list becomes a verified SOW, and an actuals log retunes the numbers after 3 real jobs.
 
+**[draw-it: one diagram of how a system works](https://github.com/milansolutionsai-ops/claude-code-draw-it)**
+Claude reads a codebase and draws one hand-drawn diagram of a single flow: where each piece runs, the steps in order, what costs money per run, and what fails silently.
+
+**[consult: one decision, several AI models](https://github.com/milansolutionsai-ops/claude-code-consult)**
+For decisions that are expensive to get wrong: one prompt goes to OpenAI, Gemini and Grok at once, then Claude reports where they agree, where they conflict and what changes the call.
+
+**[session-mesh: Claude sessions that know about each other](https://github.com/milansolutionsai-ops/claude-code-session-mesh)**
+Long-running sessions share a registry and a change log, ask each other for context directly, and hand off cleanly to a fresh session.
+
+**[AI visibility self-check](https://github.com/milansolutionsai-ops/ai-visibility-self-check)**
+10 checks a business owner can run by hand in about 15 minutes to see whether ChatGPT and Perplexity recommend them, plus a scorecard and a sample report.
+
 **[media-toolkit](https://github.com/milansolutionsai-ops/media-toolkit)**
 A full AI video studio for €0 a month, driven by Claude Code on a laptop CPU.
 
