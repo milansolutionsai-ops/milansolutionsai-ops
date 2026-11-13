@@ -41,6 +41,9 @@ Things I built for my own work and cleaned up for anyone to use.
 **[map: a Claude Code skill that keeps you able to explain your own system](https://github.com/milansolutionsai-ops/claude-code-map-skill)**
 After every finished piece of work, Claude posts a 5-line map in the chat: the flow, where it lives, what isn't tested, and a decision only when there's a real one. Plus a one-page map per project that survives context compaction, and a live-checked brief before client calls.
 
+**[claude-code-guardrails: three safety hooks](https://github.com/milansolutionsai-ops/claude-code-guardrails)**
+No SQL write without a matching dry run, no risky click in a client's live system without a human, no secrets left in session transcripts. Runs outside the model, so the agent can't forget it or talk past it.
+
 **[scoping-kit: quoting AI-assisted work](https://github.com/milansolutionsai-ops/claude-code-scoping-kit)**
 Three Claude Code skills. Every estimate shows the market quote next to your real AI-assisted hours plus a calendar date, a client feature list becomes a verified SOW, and an actuals log retunes the numbers after 3 real jobs.
 
