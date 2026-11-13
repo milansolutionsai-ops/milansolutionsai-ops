@@ -59,6 +59,9 @@ Long-running sessions share a registry and a change log, ask each other for cont
 **[AI visibility self-check](https://github.com/milansolutionsai-ops/ai-visibility-self-check)**
 10 checks a business owner can run by hand in about 15 minutes to see whether ChatGPT and Perplexity recommend them, plus a scorecard and a sample report.
 
+**[review-inbox: review your AI's work without reading the chat](https://github.com/milansolutionsai-ops/claude-review-inbox)**
+The agent's output lands in a local inbox. You mark it OK or Change with timed notes, and the next Claude turn picks up the feedback by itself, fixes it, and shows a before/after check per note.
+
 **[media-toolkit](https://github.com/milansolutionsai-ops/media-toolkit)**
 A full AI video studio for €0 a month, driven by Claude Code on a laptop CPU.
 
